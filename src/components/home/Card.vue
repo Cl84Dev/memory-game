@@ -28,7 +28,7 @@ const src = ref("");
 watch(
   () => props.value,
   () => {
-    src.value = `../src/assets/characters/${props.value}.png`;
+    src.value = `characters/${props.value}.png`;
   }
 );
 
