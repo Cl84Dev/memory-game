@@ -174,4 +174,16 @@ onMounted(() => {
   border: 1px solid var(--mg-silver);
   color: var(--mg-silver);
 }
+
+@media screen and (max-width: 768px) {
+  .cards-container {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .cards-container {
+    width: 98%;
+  }
+}
 </style>

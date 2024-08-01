@@ -80,4 +80,11 @@ const openCard = () => {
 .mg-open {
   transform: rotateY(180deg);
 }
+
+@media screen and (max-width: 576px) {
+  .mg-card {
+    width: 70px;
+    height: 140px;
+  }
+}
 </style>
