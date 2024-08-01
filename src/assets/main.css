@@ -1,0 +1,20 @@
+:root {
+  --mg-primary: #17bebb;
+  --mg-secondary: #e4572e;
+  --mg-black: #363537;
+  --mg-white: #edeec0;
+  --mg-silver: #cfc0bd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.page-container {
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: var(--mg-white);
+}
